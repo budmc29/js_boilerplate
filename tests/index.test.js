@@ -7,7 +7,7 @@ describe('Sanity test', () => {
     expect(true).to.equal(true);
   });
 });
-//
+
 describe('index.html', () => {
   it('should have users', (done) => {
     const index = fs.readFileSync('./src/index.html', "utf-8");
