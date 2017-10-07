@@ -10,11 +10,6 @@
     "localtunnel": "lt --port 3000",
     "share": "npm-run-all --parallel open:src localtunnel"
   },
-  "babel": {
-    "presets": [
-      "latest"
-    ]
-  },
   "author": "Mugur (Bud) Chirica",
   "license": "MIT",
   "dependencies": {
